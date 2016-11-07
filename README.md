@@ -1,0 +1,1 @@
+# eslint-object-property-key-camel-case
