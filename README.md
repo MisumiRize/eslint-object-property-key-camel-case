@@ -1,1 +1,1 @@
-# eslint-object-property-key-camel-case
+# eslint-plugin-property-key-camel-case
