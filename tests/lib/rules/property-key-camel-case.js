@@ -2,8 +2,8 @@ const {RuleTester} = require('eslint')
 
 const tester = new RuleTester()
 
-tester.run('object-property-key-camel-case',
-  require('../../../lib/rules/object-property-key-camel-case'),
+tester.run('property-key-camel-case',
+  require('../../../lib/rules/property-key-camel-case'),
   {
     valid: [
       'var test = {foo: 1};',
@@ -12,6 +12,7 @@ tester.run('object-property-key-camel-case',
       'test[foo];',
       'test["foo_bar"];',
       'test["Foo"]',
+      'test[0];',
       'test.foo;'
     ],
     invalid: [
