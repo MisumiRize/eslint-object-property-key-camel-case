@@ -1,12 +1,12 @@
 {
-  "name": "eslint-plugin-object-property-key-camel-case",
+  "name": "eslint-plugin-property-key-camel-case",
   "version": "1.0.0",
-  "description": "",
+  "description": "Eslint rules limiting property key to camel case",
   "main": "index.js",
   "scripts": {
     "test": "mocha tests/lib/rules/*.js"
   },
-  "author": "",
+  "author": "Rize MISUMI",
   "license": "MIT",
   "dependencies": {
     "camelcase": "^3.0.0"
