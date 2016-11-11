@@ -4,4 +4,4 @@ module.exports = {
     'property-key-camel-case': require('./lib/rules/property-key-camel-case'),
     'property-get-set-key-camel-case': require('./lib/rules/property-get-set-key-camel-case')
   }
-}
+};
