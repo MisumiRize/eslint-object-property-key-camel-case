@@ -37,7 +37,7 @@ module.exports = {
         if (typeof node.property.value != 'undefined'  // exclude reference by variable
           && typeof node.property.value != 'number'  // exclude array access
           && node.property.value == camelCase(node.property.value)) {
-            reportCamelCased(context, node)
+          reportCamelCased(context, node)
         }
       },
       Property: (node) => {

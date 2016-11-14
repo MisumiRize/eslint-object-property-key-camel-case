@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha tests/lib/rules/*.js",
+    "lint": "eslint src tests",
     "prepublish": "babel src -d lib"
   },
   "author": "Rize MISUMI",
